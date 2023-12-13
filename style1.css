@@ -1,0 +1,48 @@
+.container{
+    border: solid;
+    height: 450px;
+    width: 450px;
+   margin-left: 70%;
+     text-align: center;
+   backface-visibility: hidden; 
+  
+   
+ }
+h2{
+    border: solid;
+    border-radius: 30px;
+    text-align: center;
+  border-spacing: 20px;
+    padding: 5px;
+    margin: 80px;
+}
+input[type=text] ,input[type=password]
+{
+    font-size: medium;
+    color: rgb(51, 54, 56);
+    text-align: center;
+}
+
+ body{
+    background-image: url(backimg.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   max-width: fit-content;
+} 
+label{
+
+    color: crimson;
+}
+input {
+    height: 30px;
+    width: 200px;
+}
+#sub{
+    background-color: rgb(78, 247, 69);
+}
+input[type="submit"]
+{
+  cursor: pointer;
+}
